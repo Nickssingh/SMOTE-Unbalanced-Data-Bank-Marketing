@@ -16,7 +16,7 @@ We used SMOTE to create a balanced dataset: we oversampled (synthetically genera
 ###### SMOTE(y ~ ., data, perc.over = 100, perc.under = 200)  
   
 The number of minority class rows are decided as follows.
-###### New no. of minority class rows = Original no. of minority class rows X [1 + (perc.over/100)]
+**New no. of minority class rows = Original no. of minority class rows X [1 + (perc.over/100)]
   
 The number of majority class rows are decided as follows.
 ###### New no. of majority class rows = [New no. of minority class rows - Original no. of minority class rows] X (perc.under/100)  
