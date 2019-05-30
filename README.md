@@ -24,3 +24,27 @@ The number of majority class rows are decided as follows.
 We were able to see improvement in the sensitivities of the models, which is a key metric for us – as we want to predict 1s with accuracy; however, usage of SMOTE resulted in a slight decline in the specificities and thus in the overall accuracy.  
   
 We will apply SMOTE function on the training data; thus, we need to split the data before using SMOTE.  
+
+_Variable Description_
+
+INPUT
+**age:** Client age  
+**job:** Job Type  
+marital: Marital status  
+education: Education level  
+default: Whether the client has defaulted  
+housing: Whether the client has housing loan  
+loan: Whether the client has a personal loan  
+contact: Type of communication  
+month: Last month of the contact  
+day_of_week: Last contact day of the week  
+duration: Duration of last contact (seconds)  
+campaign: Number of times client contacted in the campaign  
+pdays: Number of days since the client was last contacted  
+previous: Number of times the client was contacted in earlier campaigns  
+poutcome: Outcome of the previous marketinig campaign  
+emp.var.rate: Employment variation rate  
+cons.price.idx: Consumer price index  
+cons.conf.idx: Consumer confidence index  
+euribor3m: Euribor 3 month rate  
+nr.employed: Number of employees  
