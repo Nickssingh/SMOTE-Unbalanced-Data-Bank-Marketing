@@ -98,7 +98,7 @@ _Machine Learning Models and Results_
 
 ![](SMOTE_Images/SMOTEd.png)  
 
-3. We created the Logistic Regression and Decision Tree models on SMOTEd training data (balanced), and then again compared the results with the models created earlier on the unbalanced data. The results are from the test data.  
+3. We created the Logistic Regression and Decision Tree models on SMOTEd training data (balanced), and then again compared the results with the models created earlier on the unbalanced data. **The results are from the test data**.  
 
 **Logistic Regression:**  
 Sensitivity improved by about 36 percentage points.  
