@@ -104,7 +104,7 @@ _Machine Learning Models and Results_
 Sensitivity improved by about 36 percentage points.  
 ![](SMOTE_Images/LogisticRegression_Improvement.png)  
 
-**Decision Tree**
+**Decision Tree:**  
 Sensitivity Improved by about 29 percentage points.  
 ![](SMOTE_Images/DecisionTree_Improvement.png)
 
