@@ -47,4 +47,40 @@ INPUT
 **cons.price.idx:** Consumer price index  
 **cons.conf.idx:** Consumer confidence index  
 **euribor3m:** Euribor 3 month rate  
-**nr.employed:** Number of employees  
+**nr.employed:** Number of employees 
+
+TARGET  
+**y:** Whether the client subscribed for a term deposit  
+
+_Analysis_  
+
+1. Check the datatypes of the variables.  
+
+2. We looked for the missing values, but did not have any.  
+
+3. ‘pdays’ was a numerical variable, and 999 in this column indicated that the client was never contacted. We converted this variable into a numerical one and changed 999 to ‘Not_contacted’.  
+
+4. Only about 11.2% of the clients had responded positively to the calls.  
+
+5. Then we looked into the education levels and the occupation of the clients.  
+
+6. The age range of people who responded negatively is comparatively more narrow; however, the difference appeared to be marginal.  
+
+7. People responding positively tend to stay on the call for comparatively longer duration.  
+
+Because duration of a call is an aspect that cannot be decided before calling customers, we excluded this variable from the model; nonetheless, it might be interesting for the bank to look into whether longer duration has key elements that could be used for the training of sales teams.  
+
+8. Clients responding positively had greater proportion of single people.  
+
+9. More proportion of the people who said yes in the previous campaign responded positively to this campaign.  
+
+_Machine Learning Models and Results_
+
+1. We created Logistic Regression and Decision Tree models on the unbalanced training data and calculated their accuracies, sensitivities, and specificities.  
+
+2. On the training data, we then used SMOTE to over-sample (artificially create) the minority class (1) and under-sample the majority class (0).  
+
+3. We created the Logistic Regression and Decision Tree models on SMOTEd training data (balanced), and then again compared the results with the models created earlier on the unbalanced data. The results are from the test data.  
+
+
+
