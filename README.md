@@ -70,15 +70,25 @@ _Analysis_
 
 5. Then we looked into the education levels and the occupation of the clients.  
 
+![](SMOTE_Images/Education.png)
+
 6. The age range of people who responded negatively is comparatively more narrow; however, the difference appeared to be marginal.  
 
+![](SMOTE_Images/Age_Histogram.png)
+
 7. People responding positively tend to stay on the call for comparatively longer duration.  
+
+![](SMOTE_Images/Duration.png)
 
 Because duration of a call is an aspect that cannot be decided before calling customers, we excluded this variable from the model; nonetheless, it might be interesting for the bank to look into whether longer duration has key elements that could be used for the training of sales teams.  
 
 8. Clients responding positively had greater proportion of single people.  
 
+![](SMOTE_Images/Marital_Status.png)
+
 9. More proportion of the people who said yes in the previous campaign responded positively to this campaign.  
+
+![](SMOTE_Images/Previous_Outcome.png)
 
 _Machine Learning Models and Results_
 
