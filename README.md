@@ -56,11 +56,17 @@ _Analysis_
 
 1. Check the datatypes of the variables.  
 
+![](SMOTE_Images/DataTypes.png)
+
 2. We looked for the missing values, but did not have any.  
+
+![](SMOTE_Images/Missing_Values.png)
 
 3. ‘pdays’ was a numerical variable, and 999 in this column indicated that the client was never contacted. We converted this variable into a numerical one and changed 999 to ‘Not_contacted’.  
 
 4. Only about 11.2% of the clients had responded positively to the calls.  
+
+![](SMOTE_Images/Client_Response.png)
 
 5. Then we looked into the education levels and the occupation of the clients.  
 
