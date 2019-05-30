@@ -14,12 +14,13 @@ We used SMOTE to create a balanced dataset: we oversampled (synthetically genera
 - Function
 
 ###### SMOTE(y ~ ., data, perc.over = 100, perc.under = 200)  
+
 The number of minority class rows are decided as follows.  
+###### New no. of minority class rows = Original no. of minority class rows X [1 + (perc.over/100)]
 
-###### New no. of minority class rows = Original no. of minority class rows X [1 + (perc.over/100)]  
-The number of majority class rows are decided as follows.  
-
+The number of majority class rows are decided as follows.
 ###### New no. of majority class rows = [New no. of minority class rows - Original no. of minority class rows] X (perc.under/100)  
+
 We were able to see improvement in the sensitivities of the models, which is a key metric for us – as we want to predict 1s with accuracy; however, usage of SMOTE resulted in a slight decline in the specificities and thus in the overall accuracy.  
 
 We apply SMOTE function on the training data; thus, data we need to split the data before using SMOTE.  
