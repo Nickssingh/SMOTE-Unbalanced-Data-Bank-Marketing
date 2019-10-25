@@ -75,11 +75,11 @@ _Analysis_
 
 6. The age range of people who responded negatively is comparatively more narrow; however, the difference appeared to be marginal.  
 
-![](SMOTE_Images/Age_Histogram.png)
+![](SMOTE_Images/age_dist.png)
 
 7. People responding positively tend to stay on the call for comparatively longer duration.  
 
-![](SMOTE_Images/Duration.png)
+![](SMOTE_Images/duration_dist.png)
 
 Because duration of a call is an aspect that cannot be decided before calling customers, we excluded this variable from the model; nonetheless, it might be interesting for the bank to look into whether longer duration has key elements that could be used for the training of sales teams.  
 
