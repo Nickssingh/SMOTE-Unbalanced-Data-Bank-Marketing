@@ -97,9 +97,12 @@ _Machine Learning Models and Results_
 
 ![](SMOTE_Images/building1.png)  
 ![](SMOTE_Images/building2.png)  
+
 2. On the training data, we then used SMOTE to over-sample the minority class (1) and under-sample the majority class (0).  
 
 ![](SMOTE_Images/SMOTEd.png)  
+
+We can notice that the number of samples with label '1' increased from 3267 to 6534 and the number of those with label '0' decreased from 25564 to 6534 - producing a **balanced dataset**
 
 3. I created the Logistic Regression and Decision Tree models on SMOTEd training data (balanced), and then again compared the results with the models created earlier on the unbalanced data. **The results are from the test data**.  
 
