@@ -95,6 +95,8 @@ _Machine Learning Models and Results_
 
 1. I created Logistic Regression and Decision Tree models on the unbalanced training data and calculated their accuracies, sensitivities, and specificities.  
 
+![](SMOTE_Images/building1.png)  
+![](SMOTE_Images/building2.png)  
 2. On the training data, we then used SMOTE to over-sample the minority class (1) and under-sample the majority class (0).  
 
 ![](SMOTE_Images/SMOTEd.png)  
