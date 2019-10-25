@@ -70,7 +70,8 @@ _Analysis_
 
 5. Then we looked into the education levels and the occupation of the clients.  
 
-![](SMOTE_Images/Education.png)
+![](SMOTE_Images/client_education.png)
+![](SMOTE_Images/client_occupation.png)
 
 6. The age range of people who responded negatively is comparatively more narrow; however, the difference appeared to be marginal.  
 
