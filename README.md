@@ -110,11 +110,12 @@ The number of samples with label '1' increased from 3267 to 6534 and the number 
 
 3. I created the Logistic Regression and Decision Tree models on SMOTEd training data (balanced), and then again compared the results with the models created earlier on the unbalanced data. **The results are from the test data**.  
 
-**Logistic Regression:**  
+**RESULTS**
+*Logistic Regression:*  
 Sensitivity improved by about 36 percentage points.  
 ![](SMOTE_Images/LogisticRegression_Improvement.png)  
 
-**Decision Tree:**  
+*Decision Tree:*  
 Sensitivity Improved by about 29 percentage points.  
 ![](SMOTE_Images/DecisionTree_Improvement.png)
 
