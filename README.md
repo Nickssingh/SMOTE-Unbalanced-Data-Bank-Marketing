@@ -92,13 +92,13 @@ Because duration of a call is an aspect that cannot be decided before calling cu
 
 _Machine Learning Models and Results_
 
-1. We created Logistic Regression and Decision Tree models on the unbalanced training data and calculated their accuracies, sensitivities, and specificities.  
+1. I created Logistic Regression and Decision Tree models on the unbalanced training data and calculated their accuracies, sensitivities, and specificities.  
 
 2. On the training data, we then used SMOTE to over-sample the minority class (1) and under-sample the majority class (0).  
 
 ![](SMOTE_Images/SMOTEd.png)  
 
-3. We created the Logistic Regression and Decision Tree models on SMOTEd training data (balanced), and then again compared the results with the models created earlier on the unbalanced data. **The results are from the test data**.  
+3. I created the Logistic Regression and Decision Tree models on SMOTEd training data (balanced), and then again compared the results with the models created earlier on the unbalanced data. **The results are from the test data**.  
 
 **Logistic Regression:**  
 Sensitivity improved by about 36 percentage points.  
