@@ -125,9 +125,9 @@ The number of samples with label '1' increased from 3267 to 6534 and the number 
 **RESULTS**  
 *Logistic Regression:*  
 Sensitivity improved by about 37 percentage points.  
-![](SMOTE_Images/logreg_improvement.png)  
+![](SMOTE_Images/logreg_improvement_.png)  
 
 *Decision Tree:*  
 Sensitivity Improved by about 31 percentage points.  
-![](SMOTE_Images/dectree_improvement.png)
+![](SMOTE_Images/dectree_improvement_.png)
 
